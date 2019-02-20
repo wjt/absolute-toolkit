@@ -5,5 +5,5 @@ After=dbus.socket
 
 [Service]
 Type=simple
-ExecStart=dbus-monitor --system
-StandardOutput=/run/dbus-monitor-system.pcap
+ExecStart=dbus-monitor --system --pcap
+StandardOutput=file:/run/dbus-monitor-system.pcap
