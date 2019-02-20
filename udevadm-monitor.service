@@ -1,0 +1,6 @@
+[Unit]
+Description=Monitor udev events
+
+[Service]
+Type=simple
+ExecStart=udevadm monitor
